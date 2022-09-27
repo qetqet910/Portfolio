@@ -7,7 +7,7 @@
     "build": "next build ",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && next export && type nul > out/.nojekyll && npm run git",
+    "deploy": "next build && next export && type nul > out/.nojekyll",
     "git": "git add -f out/ && git commit -m 'deploy to gh-pages' && git push origin main:gh-pages --force"
   },
   "dependencies": {
