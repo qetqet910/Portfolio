@@ -11,7 +11,7 @@ const Custom404: NextPage = () => {
             <Head>
                 <title>ERROR 404</title>
             </Head>
-            <Lottie className={styles.lottie} animationData={lot2}></Lottie>
+            <Lottie className={styles.L404} animationData={lot2}></Lottie>
             <footer className={styles.link}>
                 <Link href="/">Page Not Found</Link>
                 <Link href="/">메인으로 돌아가기</Link>

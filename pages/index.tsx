@@ -1,7 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Lottie from 'lottie-react';
-import lot1 from '../public/lottie/lot1.json';
+import lot3 from '../public/lottie/lot3.json';
+import lot4 from '../public/lottie/lot4.json';
+import Chat from '../components/common/chat';
 // import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 
@@ -16,7 +18,9 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <div className={styles.visual}>
-          <Lottie animationData={lot1}></Lottie>
+          <Lottie animationData={lot3}></Lottie>
+          <Lottie animationData={lot4}></Lottie>
+          <Chat></Chat>
         </div>
       </main>
     </div>

@@ -115,7 +115,7 @@
   margin-left: 0.5rem;
 }
 
-.lottie{
+.L404{
   svg{
     position: absolute;
     left: 50%;
@@ -148,6 +148,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  svg{
+    position: fixed !important;
+    height: 114vh !important;
+    width: 100vw !important;
+    left: 0px !important;
+    top: 0px !important;
+  }
+  div:nth-child(2){
+    svg{
+      width: 20vw !important;
+      top: 10% !important;
+      left: 14% !important;
+      g{
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.chat{
+  position: fixed;
+  
 }
 
 @media (max-width: 600px) {
