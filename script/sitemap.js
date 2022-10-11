@@ -32,4 +32,4 @@ const geneateSitemap = `
 const formattedSitemap = formatting(geneateSitemap);
 
 fs.writeFileSync("./public/sitemap.xml", formattedSitemap, "utf8");
-console.log('완료.1');
+console.log('sitemap create completed');
