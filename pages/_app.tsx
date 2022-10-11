@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:description" content="포트폴리오 웹 페이지" />
         <meta property="og:site_name" content="나를 소개합니다" />
         <meta property="og:locale" content="en_US" />
+        <meta name="google-site-verification" content="Ob5_umWmcYNdwfKVKTefolDdu1q5zRMId7vGObwWosk" />
       </Head>
       <Component {...pageProps} />
     </>
