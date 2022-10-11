@@ -2,6 +2,7 @@
 
 const debug = process.env.NODE_ENV !== 'production';
 const repository = 'https://introduceme.kr';
+const path = require('path')
 
 const nextConfig = {
   reactStrictMode: true,
@@ -10,6 +11,9 @@ const nextConfig = {
   images: {
     loader: 'akamai',
     path: '/',
+  },
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
   }
 };
 
