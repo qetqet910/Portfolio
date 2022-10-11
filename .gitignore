@@ -3,4 +3,5 @@ node_modules
 package.json
 .gitignore
 next-env.d.ts
-algo
+node_modules
+_next
