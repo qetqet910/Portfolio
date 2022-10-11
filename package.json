@@ -7,14 +7,16 @@
     "build": "next build ",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && next export && type nul > out/.nojekyll",
+    "deploy": "node script/sitemap.js && next build && next export && type nul > out/.nojekyll",
     "git": "git add -f out/ && git commit -m 'deploy to gh-pages'"
   },
   "dependencies": {
     "babel-plugin-transform-define": "^2.1.0",
+    "fs": "^0.0.1-security",
     "gh-pages": "^4.0.0",
     "lottie-react": "^2.3.1",
     "next": "12.2.5",
+    "prettier": "^2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.55.0",
