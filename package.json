@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "deploy": "next build && next export && type nul > out/.nojekyll",
-    "git": "git add -f out/ && git commit -m 'deploy to gh-pages' && git push origin main:gh-pages --force"
+    "git": "git add -f out/ && git commit -m 'deploy to gh-pages'"
   },
   "dependencies": {
     "babel-plugin-transform-define": "^2.1.0",
