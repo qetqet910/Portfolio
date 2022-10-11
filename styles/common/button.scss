@@ -1,0 +1,19 @@
+@mixin btn {
+    position: relative;
+    display: grid;
+    place-items: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px #333;
+    border-radius: 10px;   
+}
+
+.miniButton{
+    @include btn;
+    width: 100px;
+    height: 40px;
+}
+.largeButton{
+    @include btn; 
+    width: 300px;
+    height: 70px;
+}
