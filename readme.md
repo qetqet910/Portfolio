@@ -31,6 +31,11 @@ next.js, react-threeJS
 > 배경 끝판왕
 > https://codesandbox.io/s/lulaby-city-gkfhr
 
+> 이펙트 끝판왕
+> https://codesandbox.io/s/react-spring-animations-6hi1y
+> https://codesandbox.io/s/minimap-qf8d0
+> https://codesandbox.io/s/volumetric-light-w633u
+
 # PROCESS
 
 - 수립
