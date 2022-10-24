@@ -4,6 +4,7 @@ import Lottie from 'lottie-react';
 import lot3 from '../public/lottie/lot3.json';
 import lot4 from '../public/lottie/lot4.json';
 import styles from '../styles/Home.module.scss'
+import ThreeJS from '../public/script/Lib/three';
 // import Image from 'next/image'
 
 const Home: NextPage = () => {
@@ -16,10 +17,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.visual}>
-          <Lottie animationData={lot3}></Lottie>
-          <Lottie animationData={lot4}></Lottie>
-        </div>
+        <ThreeJS />
       </main>
     </div>
   )

@@ -7,10 +7,12 @@
     "build": "next build ",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "node script/sitemap.js && next build && next export && type nul > out/.nojekyll",
+    "deploy": "node public/script/sitemap.js && next build && next export && type nul > out/.nojekyll",
     "git": "git add -f out/ && git commit -m 'deploy to gh-pages'"
   },
   "dependencies": {
+    "@react-three/drei": "^9.36.0",
+    "@react-three/fiber": "^8.8.10",
     "babel-plugin-transform-define": "^2.1.0",
     "fs": "^0.0.1-security",
     "gh-pages": "^4.0.0",
@@ -20,7 +22,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.55.0",
-    "serverless": "^3.22.0"
+    "serverless": "^3.22.0",
+    "three": "^0.145.0",
+    "valtio": "^1.7.4"
   },
   "devDependencies": {
     "@types/node": "18.7.15",
