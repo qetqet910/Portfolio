@@ -1,11 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Lottie from 'lottie-react';
-import lot3 from '../public/lottie/lot3.json';
-import lot4 from '../public/lottie/lot4.json';
 import styles from '../styles/Home.module.scss'
-import ThreeJS from '../public/script/Lib/three';
-// import Image from 'next/image'
+import { Room } from '../public/script/three'
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <ThreeJS />
+        <Room></Room>
       </main>
     </div>
   )
