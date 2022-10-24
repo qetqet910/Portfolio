@@ -1,38 +1,73 @@
-about me 
-edu
-award
-career
-certificate
-skill
-Project
-experience
+# Goal Portfolio Complete
 
-three.js, lottie, other library
-api, next.js, js
-tsx, scss, etc
+[Pure JS&CSS Scroll](https://joshua-dev-story.blogspot.com/2020/11/javascript-css-scroll-animation.html) <-- [샘플](https://gpe-joshua.github.io/sample/65-sample-d.html)
+[3d Model](https://sketchfab.com/3d-models?date=week&features=downloadable&sort_by=-likeCount&cursor=cD0zMg%3D%3D)
+[My Domain](https://introduceme.kr/)
+[Lottie Site](https://lottiefiles.com/featured)
 
-v2 - electron
+##### 주의 3d model license 준수 작성자 표시
+> made by deadpool https://sketchfab.com/lvlup
 
-https://joshua-dev-story.blogspot.com/2020/11/javascript-css-scroll-animation.html
-https://gpe-joshua.github.io/sample/65-sample-d.html
-https://sketchfab.com/3d-models?date=week&features=downloadable&sort_by=-likeCount&cursor=cD0zMg%3D%3D
-https://introduceme.kr/
-https://lottiefiles.com/featured
+## Study
 
-made by deadpool https://sketchfab.com/lvlup
+fiber, drei, postprocessing<br>
+next.js, react-threeJS 
 
-goal 첫 눈 오기 전까지 https://codesandbox.io/search?refinementList%5Btemplate%5D=&refinementList%5Bnpm_dependencies.dependency%5D%5B0%5D=%40react-three%2Fdrei&page=1&configure%5BhitsPerPage%5D=12 react-threeJS fiber, drei master
-끝나면 electron + flutter 병행
+#### 참고
 
-스크롤 섹션 페이징
-https://codesandbox.io/s/useintersect-and-scrollcontrols-forked-89k5g?file=/src/App.js
+> 스크롤 섹션 페이징
+> https://89k5g.csb.app/
 
-갤러리
-https://codesandbox.io/s/l4klb
-https://codesandbox.io/s/lx2h8
+> 갤러리
+> https://codesandbox.io/s/l4klb
+> https://codesandbox.io/s/lx2h8
 
-셀렉트
-https://codesandbox.io/s/maina11yfeaturestest-forked-n4rzi
+> 셀렉트
+> https://codesandbox.io/s/maina11yfeaturestest-forked-n4rzi
 
-로더 끝판왕
-https://codesandbox.io/s/great-chatterjee-fbzru
+> 로더 끝판왕
+> https://codesandbox.io/s/great-chatterjee-fbzru
+
+> 배경 끝판왕
+> https://codesandbox.io/s/lulaby-city-gkfhr
+
+# PROCESS
+
+- 수립
+  - 구성요소
+    - About
+    - Contact
+    - Education
+    - Skills
+    - Career
+    - Awards
+    - Projects
+    - Other - 교내, 대외 활동
+  - 스택
+    - front-end
+      - react
+      - next.js 
+      - recoil
+      - html
+      - js
+      - css/scss
+      - three.js
+    - back-end
+      - 전자정부 4.0 spring
+      - php
+      - firebase
+      - node.js
+    - ETC
+      - sitemap, SEO
+      - robots.txt, .yml, CNAME
+      - git, vscode
+      - sourcetree, tableplus
+  - 구현 도메인 - introduceme.kr
+  - 구현 스택
+    - next.ts
+    - three.js, parallax
+    - serverless
+    - Lottie.js
+  - Prototype.v2 
+    - electron 웹/앱화
+    - 실시간 문의 기능 - 관리자에게 알림
