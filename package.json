@@ -11,6 +11,7 @@
     "git": "git add -f out/ && git commit -m 'deploy to gh-pages'"
   },
   "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.4.7",
     "@react-three/drei": "^9.36.0",
     "@react-three/fiber": "^8.8.10",
     "@react-three/postprocessing": "^2.7.0",
@@ -18,10 +19,11 @@
     "fs": "^0.0.1-security",
     "gh-pages": "^4.0.0",
     "lottie-react": "^2.3.1",
-    "next": "12.2ㄹ.5",
+    "next": "12.2.5",
     "prettier": "^2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-lottie-player": "^1.5.0",
     "sass": "^1.55.0",
     "serverless": "^3.22.0",
     "three": "^0.145.0",

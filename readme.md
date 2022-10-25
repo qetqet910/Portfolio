@@ -16,7 +16,7 @@ next.js, react-threeJS
 #### 참고
 
 > 스크롤 섹션 페이징
-> https://89k5g.csb.app/
+> https://codesandbox.io/s/89k5g
 
 > 갤러리
 > https://codesandbox.io/s/l4klb

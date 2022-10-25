@@ -22,6 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>Introduce My Self</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="google-site-verification" content="Ob5_umWmcYNdwfKVKTefolDdu1q5zRMId7vGObwWosk" />
+        <script dangerouslySetInnerHTML={{ __html: `document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"));` }}></script>;
       </Head>
       <Component {...pageProps} />
     </>
