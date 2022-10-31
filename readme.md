@@ -78,6 +78,10 @@ next.js, react-threeJS
     - Lottie.js
   - Prototype.v2 
     - electron 웹/앱화
+<<<<<<< HEAD
     - 실시간 문의 기능 - 관리자에게 알림
 
 열차 안에 사람들이 든 노트북 속으로
+=======
+    - 실시간 문의 기능 - 관리자에게 알림 
+>>>>>>> 0f2dd7e3fbef8d06a8218a14001403462eab6b82
