@@ -18,6 +18,7 @@
     "babel-plugin-transform-define": "^2.1.0",
     "fs": "^0.0.1-security",
     "gh-pages": "^4.0.0",
+    "leva": "^0.9.34",
     "lottie-react": "^2.3.1",
     "next": "12.2.5",
     "prettier": "^2.7.1",

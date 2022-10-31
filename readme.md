@@ -36,6 +36,9 @@ next.js, react-threeJS
 > https://codesandbox.io/s/minimap-qf8d0
 > https://codesandbox.io/s/volumetric-light-w633u
 
+> 클릭 이벤트
+> https://codesandbox.io/s/react-three-fiber-gestures-lf70c?file=/src/index.js
+
 # PROCESS
 
 - 수립
@@ -76,3 +79,5 @@ next.js, react-threeJS
   - Prototype.v2 
     - electron 웹/앱화
     - 실시간 문의 기능 - 관리자에게 알림
+
+열차 안에 사람들이 든 노트북 속으로

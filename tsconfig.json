@@ -20,6 +20,6 @@
     "**/*.ts",
     "**/*.tsx",
     "public/script/three.jsx"
-, "public/script/mode.tsx", "pages/index.jsx", "pages/index.jsx", "components/common/Theme.jsx"  ],
+, "public/script/mode.tsx", "pages/index.tsx", "pages/index.tsx", "components/common/Theme.jsx"  ],
   "exclude": ["node_modules"]
 }

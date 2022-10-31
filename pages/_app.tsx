@@ -1,6 +1,7 @@
 import '../styles/globals.scss'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
+import Script from 'next/script'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return(
@@ -22,8 +23,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>Introduce My Self</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="google-site-verification" content="Ob5_umWmcYNdwfKVKTefolDdu1q5zRMId7vGObwWosk" />
-        <script dangerouslySetInnerHTML={{ __html: `document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"));` }}></script>;
       </Head>
+      <Script dangerouslySetInnerHTML={{ __html: `document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"));` }}></Script>;
       <Component {...pageProps} />
     </>
   ) 
