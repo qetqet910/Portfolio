@@ -8,10 +8,6 @@ const nextConfig = {
   reactStrictMode: true,
   assetPrefix: !debug ? `${repository}/` : '',
   trailingSlash: true,
-  images: {
-    loader: 'akamai',
-    path: '/',
-  },
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   }
