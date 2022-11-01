@@ -1,0 +1,1 @@
+declare module 'lottie-interactive/dist/lottie-interactive.js'

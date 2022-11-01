@@ -39,6 +39,12 @@ next.js, react-threeJS
 > 클릭 이벤트
 > https://codesandbox.io/s/react-three-fiber-gestures-lf70c?file=/src/index.js
 
+> 한 줄기의 빛
+> https://lottiefiles.com/interactivity
+> https://codesandbox.io/examples/package/@lottiefiles/lottie-interactivity
+> https://github.com/LottieFiles/lottie-interactivity
+> https://github.com/airbnb/lottie-web
+
 # PROCESS
 
 - 수립

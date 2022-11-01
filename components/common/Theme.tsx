@@ -1,10 +1,6 @@
 import React, { useLayoutEffect } from "react";
-import { AnimationAction } from "three";
 import LocalStorage from "../LocalStorage";
-import styles from '../../styles/Home.module.scss'
-
-// import { Player } from "@lottiefiles/react-lottie-player"
-// import changeThemeLottie from '../../public/lottie/changeTheme.json';
+import mode from "../../styles/common/dot/mode.module.scss";
 
 const ToggleTheme = ({ changeTheme }:any) => {
   const setDark = React.useCallback(() => {
@@ -20,10 +16,6 @@ const ToggleTheme = ({ changeTheme }:any) => {
   }, [changeTheme]);
 
   const toggleTheme = (e:any) => {
-    // playerRef.current?.play();
-    // setTimeout(() => {
-    //   playerRef.current?.pause();      
-    // }, 1100);
     if (e.target.checked) {
       setDark();
     } else {
@@ -50,14 +42,10 @@ const ToggleTheme = ({ changeTheme }:any) => {
 
   return (
     <>
-      <input
-        className={styles.toggleItem}
-        type="checkbox"
-        id="toggle" 
-        onClick={toggleTheme}
-        defaultChecked={defaultDark}
-      />
-      <label htmlFor="toggle"></label>
+      <input type="checkbox" id="toggle" className={mode.toggle_checkbox} onClick={toggleTheme} defaultChecked={defaultDark} />
+      <label htmlFor="toggle" className={mode.toggle_label}>
+        <span className="toggle--label-background"></span>
+      </label>
     </>
   );
 }

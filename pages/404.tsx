@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import styles from '../styles/Home.module.scss'
 import Lottie from 'lottie-react'
-import lot2 from '../public/lottie/lot2.json'
+import lot2 from '../public/lottie/404Lottie.json'
 import Link from 'next/link'
 import Head from 'next/head'
 
