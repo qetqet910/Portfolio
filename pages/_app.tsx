@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
         <meta name="google-site-verification" content="Ob5_umWmcYNdwfKVKTefolDdu1q5zRMId7vGObwWosk" />
       </Head>
-      <Script dangerouslySetInnerHTML={{ __html: `document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"));` }}></Script>;
+      <Script id={'theme'} dangerouslySetInnerHTML={{ __html: `document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"));` }}></Script>;
       <Component {...pageProps} />
     </>
   ) 
