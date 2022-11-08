@@ -1,8 +1,9 @@
-import React, { useLayoutEffect } from "react";
+import React, { useEffect, useLayoutEffect } from "react";
 import LocalStorage from "../LocalStorage";
 import mode from "../../styles/common/dot/mode.module.scss";
+// import LottieClick from '../../public/lottie/module/lottie';
 
-const ToggleTheme = ({ changeTheme }:any) => {
+const ToggleTheme = ({ changeTheme }) => {
   const setDark = React.useCallback(() => {
     localStorage.setItem("theme", "Dark");
     document.documentElement.setAttribute("data-theme", "Dark");
@@ -15,7 +16,7 @@ const ToggleTheme = ({ changeTheme }:any) => {
     if (changeTheme !== undefined) changeTheme(); 
   }, [changeTheme]);
 
-  const toggleTheme = (e:any) => {
+  const toggleTheme = (e) => {
     if (e.target.checked) {
       setDark();
     } else {
@@ -40,12 +41,21 @@ const ToggleTheme = ({ changeTheme }:any) => {
     }
   }, [setDark, setLight, defaultDark]);
 
+  useEffect(() => {
+    setTimeout(() => {
+      if(defaultDark){
+        document.querySelector('#__next header lottie-player').click();
+      }else{
+        return
+      }
+      document.querySelector('#__next header lottie-player').addEventListener('click', toggleTheme)
+      console.log(document.querySelector('#__next header lottie-player'))
+    }, 500);
+  }, [])
+
   return (
     <>
-      <input type="checkbox" id="toggle" className={mode.toggle_checkbox} onClick={toggleTheme} defaultChecked={defaultDark} />
-      <label htmlFor="toggle" className={mode.toggle_label}>
-        <span className="toggle--label-background"></span>
-      </label>
+      {/* <LottieClick /> */}
     </>
   );
 }

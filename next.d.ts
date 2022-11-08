@@ -1,1 +1,1 @@
-declare module 'lottie-interactive/dist/lottie-interactive.js'
+declare module '@lottiefiles/lottie-interactivity';

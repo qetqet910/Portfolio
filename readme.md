@@ -36,7 +36,7 @@ next.js, react-threeJS
 > https://codesandbox.io/s/minimap-qf8d0
 > https://codesandbox.io/s/volumetric-light-w633u
 
-> 클릭 이벤트
+> 호버 이벤트
 > https://codesandbox.io/s/react-three-fiber-gestures-lf70c?file=/src/index.js
 
 > 한 줄기의 빛
@@ -44,6 +44,9 @@ next.js, react-threeJS
 > https://codesandbox.io/examples/package/@lottiefiles/lottie-interactivity
 > https://github.com/LottieFiles/lottie-interactivity
 > https://github.com/airbnb/lottie-web
+
+> 프로젝트 부분 디자인 참고
+> https://tympanus.net/Development/DistortionHoverEffect/
 
 # PROCESS
 
@@ -86,3 +89,7 @@ next.js, react-threeJS
     - electron 웹/앱화
     - 실시간 문의 기능 - 관리자에게 알림
 
+현재 방향
+
+Lottie를 Next.js에서 활용할 수 있는 방안을 찾았다.
+Lottie의 비중을 늘리고 Three.js의 비중을 줄이자.
