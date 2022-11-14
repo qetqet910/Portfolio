@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import styles from '../styles/Home.module.scss'
+import styles from '../styles/common/404.module.scss'
 import Lottie from 'lottie-react'
 import lot2 from '../public/lottie/404Lottie.json'
 import Link from 'next/link'

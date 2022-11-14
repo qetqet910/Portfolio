@@ -6,7 +6,7 @@ const CINEPS_BOARD_DOMAIN = "https://introduceme.kr";
 
 const formatting = (target) => prettier.format(target, { parser: "html" });
 
-let pages = ["/"];
+let pages = ["/", "/*", "/About", "Education", "Skills", "Career", "Projects", "Contact"];
 pages = pages.map((page) => CINEPS_BOARD_DOMAIN + page);
 
 const pageSitemap = pages

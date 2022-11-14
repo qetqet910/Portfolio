@@ -11,6 +11,9 @@
     "git": "git add -f out/ && git commit -m 'deploy to gh-pages'"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@lottiefiles/lottie-interactivity": "^1.6.1",
     "@lottiefiles/lottie-player": "^1.6.0",
     "@lottiefiles/react-lottie-player": "^3.4.7",
@@ -28,6 +31,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-lottie-player": "^1.5.0",
+    "react-router-dom": "^6.4.3",
     "sass": "^1.55.0",
     "serverless": "^3.22.0",
     "three": "^0.145.0",

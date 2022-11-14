@@ -20,6 +20,6 @@
     "**/*.ts",
     "**/*.tsx",
     "public/script/three.jsx"
-, "public/script/mode.tsx", "pages/index.tsx", "pages/index.tsx", "components/common/Theme.jsx", "public/lottie/module/lottie.jsx"  ],
+, "public/script/mode.tsx", "pages/index.tsx", "pages/index.tsx", "components/common/Theme.jsx", "public/lottie/module/lottie.jsx", "pages/About.sx"  ],
   "exclude": ["node_modules"]
 }

@@ -1,7 +1,7 @@
 import React, { useEffect, useLayoutEffect } from "react";
 import LocalStorage from "../LocalStorage";
 import mode from "../../styles/common/dot/mode.module.scss";
-// import LottieClick from '../../public/lottie/module/lottie';
+import ModeToggle from '../modeToggle';
 
 const ToggleTheme = ({ changeTheme }) => {
   const setDark = React.useCallback(() => {
@@ -51,11 +51,10 @@ const ToggleTheme = ({ changeTheme }) => {
       document.querySelector('#__next header lottie-player').addEventListener('click', toggleTheme)
       console.log(document.querySelector('#__next header lottie-player'))
     }, 500);
-  }, [])
+  }, [defaultDark, toggleTheme])
 
   return (
     <>
-      {/* <LottieClick /> */}
     </>
   );
 }
