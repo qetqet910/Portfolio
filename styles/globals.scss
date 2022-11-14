@@ -54,17 +54,17 @@ table {
 
 body{
   background-color: var(--background-color);
-  transition: all .2s;
+  transition: all 1.2s;
 }
 
 [data-theme="Dark"] {
-	--font-color: #ffffff;
-	--background-color: #23272a;
-	--point-color: #99aab8;
+	--font-color: #f0efef;
+	--background-color: #333333;
+	--point-color: #fff7d3;
 }
   
 [data-theme="Light"] {
-	--font-color: #23272a;
-	--background-color: #ffffff;
-	--point-color: #7289da;
+	--font-color: #333333;
+	--background-color: #f0efef;
+	--point-color: #fff7d3;
 }

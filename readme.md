@@ -93,3 +93,11 @@ next.js, react-threeJS
 
 Lottie를 Next.js에서 활용할 수 있는 방안을 찾았다.
 Lottie의 비중을 늘리고 Three.js의 비중을 줄이자.
+
+현재 개발 현황
+
+기술 부족으로 새로고침 하면 강제 F5 다크모드 자체는 구현 가능하다만
+로티 조작의 문제점으로 강제 라이트모드로 고정함
+
+앞으로의 공부 방향
+React - Next.JS - Nest.JS - flutter

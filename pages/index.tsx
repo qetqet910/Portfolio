@@ -29,7 +29,7 @@ const Home = () => {
               <li><Link href={"#"}>Contact</Link></li>
             </ul>
           </nav>
-          <LottieClick />     
+          <LottieClick changeTheme={undefined} />     
         </div>
       </header>
       <main className={styles.main}>

@@ -15,9 +15,10 @@ body{
     align-items: center;
     width: 100%;
     height: calc(3vw + 10px);;
-    background-color: #ffffff0c;
+    background-color: var(--background-color);
     backdrop-filter: blur(20px);
-    box-shadow: 0px 2px 2px #ffffff0c;
+    box-shadow: 0px 2px 2px var(--background-color);
+    transition: all 1.2s;
     .innerHeader{
       position: relative;
       display: flex;
@@ -26,7 +27,7 @@ body{
       width: 80%;
       height: 100%;
       a{
-        color: #cecece;
+        color: var(--font-color);
         text-decoration: none;
         font-weight: 100;
         font-family: am;
