@@ -1,6 +1,0 @@
-node_modules
-.next
-package.json
-.gitignore
-next-env.d.ts
-node_modules
