@@ -1,22 +1,24 @@
-import { Link } from 'react-router-dom';
 import ModeToggle from './inner/modeToggle';
+import { Head } from '../../style/SHead/SHead';
 
 const Header = () => {
     return(
-        <header>
-            <Link to="#" className="Logo">Kim. HM</Link>
-            <nav>
-                <ul>
-                    <li><Link to="#">About</Link></li>
-                    <li><Link to="#">Edu</Link></li>
-                    <li><Link to="#">Car</Link></li>
-                    <li><Link to="#">ETC</Link></li>
-                    <li><Link to="#">ETc</Link></li>
-                    <li><Link to="#">Exa</Link></li>
-                </ul>
-            </nav>
-            <ModeToggle />
-        </header>
+        <Head>
+            <div className="innerHeader">
+                <a href="/" className="Logo">Kim. HM</a>
+                <nav>
+                    <ul>
+                        <li><a href="/">About</a></li>
+                        <li><a href="/">Education</a></li>
+                        <li><a href="/">Skills</a></li>
+                        <li><a href="/">Career</a></li>
+                        <li><a href="/">Awards</a></li>
+                        <li><a href="/">Contact</a></li>
+                    </ul>
+                </nav>
+                <ModeToggle />
+            </div>
+        </Head>
     )
 }
 

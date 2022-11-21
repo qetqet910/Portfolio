@@ -1,20 +1,11 @@
 import { ITheme } from "../types/type";
 
-export const lightTheme:ITheme = {
-    BaseColor: '#FEFEFE',
-    BgColor1: '#333333',
-    BgColor2: '#222222',
-    point: {
-        PointBgColor1: 'royalblue',
-        PointBgColor2: 'yellow',
-    },
-    FontWeight: 300
-};
-
 export const darkTheme:ITheme = {
-    BaseColor: '#333333',
-    BgColor1: '#FEFEFE',
-    BgColor2: '#CECECE',
+    BaseColor: '#FEFEFE',
+    BgColorA: '#333333',
+    BgColorB: '#232323',
+    BgColorOpA: '#33333380',
+    BgColorOpB: '#23232380',
     point: {
         PointBgColor1: 'royalblue',
         PointBgColor2: 'yellow',
@@ -22,3 +13,15 @@ export const darkTheme:ITheme = {
     FontWeight: 400
 };
 
+export const lightTheme:ITheme = {
+    BaseColor: '#333333',
+    BgColorA: '#FEFEFE',
+    BgColorB: '#f7f7f7',
+    BgColorOpA: '#FEFEFE80',
+    BgColorOpB: '#f7f7f780',
+    point: {
+        PointBgColor1: 'royalblue',
+        PointBgColor2: 'yellow',
+    },
+    FontWeight: 500
+};

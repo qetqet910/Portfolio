@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import GlobalStyle from './style/GlobalStyle';
 import { RecoilRoot } from 'recoil';
+import GlobalStyle from './style/GlobalStyle';
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -11,8 +12,8 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <RecoilRoot>
-        <GlobalStyle />
-        <App />
+      <GlobalStyle />
+      <App />
     </RecoilRoot>
   </React.StrictMode>
 );
