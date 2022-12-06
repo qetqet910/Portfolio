@@ -1,4 +1,4 @@
-import Header from '../src/components/header/header'
+// import Header from '../src/components/header/header'
 import Main from '../src/components/main/main'
 
 import { darkTheme, lightTheme } from './style/Theme';
@@ -11,7 +11,6 @@ function App() {
 
   return (
     <ThemeProvider theme={darkmode ? darkTheme : lightTheme}>
-      <Header />
       <Main />
     </ThemeProvider>
   );

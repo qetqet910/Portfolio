@@ -1,6 +1,6 @@
-import { useRef, useState } from 'react'
-import { useGLTF, Html } from '@react-three/drei'
-import { FaMapMarkerAlt } from 'react-icons/fa'
+import { useRef, /*useState*/ } from 'react'
+import { useGLTF, /*Html*/ } from '@react-three/drei'
+import { /*FaMapMarkerAlt*/ } from 'react-icons/fa'
 
 const ThreeJS = () => {
   const group = useRef()

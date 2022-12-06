@@ -1,6 +1,7 @@
 import { MainS } from '../../style/SMain/SMain';
 import { Canvas } from '@react-three/fiber'
 import ThreeJS from '../../Three/ThreeJS';
+import { RecSVG } from './inner/svg';
 
 // import { Lottie1 } from '../../Lottie/ReactLottie';
 // import { EventLottie1 } from '../../Lottie/AnimationLottie';
@@ -17,6 +18,7 @@ const Main = () => {
                 </directionalLight>
                 <ThreeJS />
             </Canvas>
+            <RecSVG />
         </MainS>
     )
 }

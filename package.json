@@ -5,6 +5,7 @@
   "dependencies": {
     "@lottiefiles/lottie-interactivity": "^1.6.1",
     "@lottiefiles/lottie-player": "^1.6.0",
+    "@lottiefiles/react-lottie-player": "^3.4.9",
     "@react-three/drei": "^9.36.0",
     "@react-three/fiber": "^8.9.1",
     "@testing-library/jest-dom": "^5.16.5",
