@@ -65,14 +65,30 @@ export const RecSVGS = Styled.div`
                 transform: translate(-50%, -50%);
             }
         }
-        section{
+    }
+    section{
             div{
                 div{
                     svg{
-                        left: 20% !important;
+                        top: 6.7% !important;
+                        transform: scale(.84) !important;
+                        &:nth-child(1){left: 20% !important;}
+                        &:nth-child(2){left: 22% !important;}
+                        &:nth-child(3){left: 26% !important;}
+                        &:nth-child(4){left: 28% !important;}
+                        &:nth-child(5){left: 32% !important;}
+                        &:nth-child(6){left: 34% !important;}
+                        g{
+                            g{
+                                g{
+                                    path{
+                                        fill: rgb(255, 255, 255)
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
         }
-    }
 `
